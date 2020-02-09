@@ -82,7 +82,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .navbar {
   height: 50px;
   overflow: hidden;

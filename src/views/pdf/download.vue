@@ -42,8 +42,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
-@mixin clearfix {
+<style lang="stylus">
+clearfix {
   &:before {
     display: table;
     content: '';

@@ -197,28 +197,28 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-  // Fonts:
-  $font-size-base: 16px;
-  $font-size-small: 18px;
-  $font-size-smallest: 12px;
-  $font-weight-normal: normal;
-  $font-weight-bold: bold;
-  $apixel: 1px;
+<style lang="stylus" scoped>
+  // Fonts
+  $font-size-base =  16px;
+  $font-size-small =  18px;
+  $font-size-smallest =  12px;
+  $font-weight-normal =  normal;
+  $font-weight-bold =  bold;
+  $apixel =  1px;
   // Utils
-  $spacer: 12px;
-  $transition: 0.2s ease all;
-  $index: 0px;
-  $index-has-icon: 30px;
-  // Theme:
-  $color-white: white;
-  $color-grey: #9E9E9E;
-  $color-grey-light: #E0E0E0;
-  $color-blue: #2196F3;
-  $color-red: #F44336;
-  $color-black: black;
-  // Base clases:
-  %base-bar-pseudo {
+  $spacer =  12px;
+  $transition =  0.2s ease all;
+  $index =  0px;
+  $index-has-icon =  30px;
+  // Theme = 
+  $color-white =  white;
+  $color-grey =  #9E9E9E;
+  $color-grey-light =  #E0E0E0;
+  $color-blue =  #2196F3;
+  $color-red =  #F44336;
+  $color-black =  black;
+  // Base clases
+  .base-bar-pseudo {
     content: '';
     height: 1px;
     width: 0;
@@ -228,7 +228,7 @@ export default {
   }
 
   // Mixins:
-  @mixin slided-top() {
+  slided-top() {
     top: - ($font-size-base + $spacer);
     left: 0;
     font-size: $font-size-base;
@@ -290,11 +290,11 @@ export default {
       display: block;
       width: 100%;
       &:before {
-        @extend %base-bar-pseudo;
+        @extend .base-bar-pseudo;
         left: 50%;
       }
       &:after {
-        @extend %base-bar-pseudo;
+        @extend .base-bar-pseudo;
         right: 50%;
       }
     }

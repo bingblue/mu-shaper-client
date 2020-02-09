@@ -89,7 +89,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .app-container {
   /deep/ .permission-alert {
     width: 320px;

@@ -258,7 +258,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .app-container {
   .roles-table {
     margin-top: 30px;

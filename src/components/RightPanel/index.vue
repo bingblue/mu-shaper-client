@@ -84,7 +84,7 @@ export default {
 }
 </style>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .rightPanel-background {
   position: fixed;
   top: 0;

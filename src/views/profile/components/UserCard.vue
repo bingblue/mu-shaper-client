@@ -73,7 +73,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .box-center {
   margin: 0 auto;
   display: table;

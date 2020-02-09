@@ -31,7 +31,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .sidebarLogoFade-enter-active {
   transition: opacity 1.5s;
 }

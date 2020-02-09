@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .app-main {
   /* 50= navbar  50  */
   min-height: calc(100vh - 50px);
@@ -47,7 +47,7 @@ export default {
 }
 </style>
 
-<style lang="scss">
+<style lang="stylus">
 // fix css style bug in open el-dialog
 .el-popup-parent--hidden {
   .fixed-header {

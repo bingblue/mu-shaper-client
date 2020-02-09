@@ -104,7 +104,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .dndList {
   background: #fff;
   padding-bottom: 40px;

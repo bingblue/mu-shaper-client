@@ -61,14 +61,14 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="stylus" >
 .box-card-component{
   .el-card__header {
     padding: 0px!important;
   }
 }
 </style>
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .box-card-component {
   .box-card-header {
     position: relative;

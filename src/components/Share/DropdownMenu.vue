@@ -37,9 +37,9 @@ export default {
 }
 </script>
 
-<style lang="scss" >
-$n: 9; //和items.length 相同
-$t: .1s;
+<style lang="stylus" >
+$n =  9; //和items.length 相同
+$t =  .1s;
 .share-dropdown-menu {
   width: 250px;
   position: relative;
@@ -78,8 +78,8 @@ $t: .1s;
       background: black;
       color: white;
     }
-    @for $i from 1 through $n {
-      &:nth-of-type(#{$i}) {
+    for $i in (1..$n) {
+      &:nth-of-type($i) {
         z-index: -1;
         transition-delay: $i*$t;
         transform: translate3d(0, -60px, 0);
@@ -91,7 +91,7 @@ $t: .1s;
       z-index: 1;
     }
     .share-dropdown-menu-item {
-      @for $i from 1 through $n {
+      for $i in (1..$n) {
         &:nth-of-type(#{$i}) {
           transition-delay: ($n - $i)*$t;
           transform: translate3d(0, ($i - 1)*60px, 0);

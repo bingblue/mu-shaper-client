@@ -122,6 +122,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-  @import './index.scss';
+<style lang="stylus">
+  @import './index.styl';
 </style>

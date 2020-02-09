@@ -96,7 +96,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .dashboard-editor-container {
   padding: 32px;
   background-color: rgb(240, 242, 245);

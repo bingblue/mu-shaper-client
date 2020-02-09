@@ -51,7 +51,7 @@ export default {
   }
 }
 </script>
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .board-column {
   min-width: 300px;
   min-height: 100px;

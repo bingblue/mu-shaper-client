@@ -5,9 +5,10 @@ import Cookies from 'js-cookie'
 import 'normalize.css/normalize.css' // a modern alternative to CSS resets
 
 import Element from 'element-ui'
-import './styles/element-variables.scss'
+import './styles/element-variables.styl'
+import 'element-ui/lib/theme-chalk/index.css'
 
-import '@/styles/index.scss' // global css
+import '@/styles/index.styl' // global css
 
 import App from './App'
 import store from './store'

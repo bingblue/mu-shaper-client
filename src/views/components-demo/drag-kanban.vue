@@ -36,7 +36,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="stylus">
 .board {
   width: 1000px;
   margin-left: 20px;

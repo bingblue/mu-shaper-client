@@ -81,7 +81,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="stylus" scoped>
 .drawer-container {
   padding: 24px;
   font-size: 14px;
