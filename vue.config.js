@@ -35,6 +35,18 @@ module.exports = {
     overlay: {
       warnings: false,
       errors: true
+    },
+    proxy: {
+      // detail: https://cli.vuejs.org/config/#devserver-proxy
+      [process.env.VUE_APP_BASE_API]: {
+        // target: `http://101.132.183.11:8888/`, // 线上
+        // target: `http://localhost:8080/`,      // JAVA本地
+        target: 'http://localhost:3002/', // NODE本地
+        changeOrigin: true,
+        pathRewrite: {
+          ['^' + process.env.VUE_APP_BASE_API]: ''
+        }
+      }
     }
   },
   configureWebpack: {
