@@ -180,7 +180,7 @@ export default {
   methods: {
     fetchData (id) {
       fetchArticle(id).then(response => {
-        this.postForm = response.data
+        this.postForm = response.body
 
         // just for test
         this.postForm.title += `   Article Id:${this.postForm.id}`
@@ -241,8 +241,8 @@ export default {
     },
     getRemoteUserList (query) {
       searchUser(query).then(response => {
-        if (!response.data.items) return
-        this.userListOptions = response.data.items.map(v => v.name)
+        if (!response.body.items) return
+        this.userListOptions = response.body.items.map(v => v.name)
       })
     }
   }
