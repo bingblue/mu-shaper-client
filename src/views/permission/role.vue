@@ -216,8 +216,8 @@ export default {
           }
         }
       } else {
-        const { data } = await addRole(this.role)
-        this.role.key = data.key
+        const { body } = await addRole(this.role)
+        this.role.key = body.key
         this.rolesList.push(this.role)
       }
 
