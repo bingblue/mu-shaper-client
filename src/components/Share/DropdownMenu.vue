@@ -79,7 +79,7 @@ $t =  .1s;
       color: white;
     }
     for $i in (1..$n) {
-      &:nth-of-type($i) {
+      &:nth-of-type({$i}) {
         z-index: -1;
         transition-delay: $i*$t;
         transform: translate3d(0, -60px, 0);
@@ -92,7 +92,7 @@ $t =  .1s;
     }
     .share-dropdown-menu-item {
       for $i in (1..$n) {
-        &:nth-of-type(#{$i}) {
+        &:nth-of-type({$i}) {
           transition-delay: ($n - $i)*$t;
           transform: translate3d(0, ($i - 1)*60px, 0);
         }
