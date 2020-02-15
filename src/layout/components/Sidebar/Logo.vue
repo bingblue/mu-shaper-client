@@ -24,8 +24,8 @@ export default {
   },
   data () {
     return {
-      title: 'Vue Element Admin',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: '后台管理系统',
+      logo: '/logo_single.png'
     }
   }
 }
@@ -58,16 +58,18 @@ export default {
       width: 32px;
       height: 32px;
       vertical-align: middle;
-      margin-right: 12px;
+      margin-right: 5px;
+      position: relative;
+      top: -3px;
     }
 
     & .sidebar-title {
       display: inline-block;
       margin: 0;
       color: #fff;
-      font-weight: 600;
+      font-weight: 400;
       line-height: 50px;
-      font-size: 14px;
+      font-size: 15px;
       font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
       vertical-align: middle;
     }

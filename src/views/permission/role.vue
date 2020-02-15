@@ -99,12 +99,12 @@ export default {
   methods: {
     async getRoutes () {
       const res = await getRoutes()
-      this.serviceRoutes = res.data
-      this.routes = this.generateRoutes(res.data)
+      this.serviceRoutes = res.body
+      this.routes = this.generateRoutes(res.body)
     },
     async getRoles () {
       const res = await getRoles()
-      this.rolesList = res.data
+      this.rolesList = res.body
     },
 
     // Reshape the routes structure so that it looks the same as the sidebar
