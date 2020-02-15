@@ -307,7 +307,7 @@ export default {
     // Raised state:
     &.material--raised {
       .material-label {
-        @include slided-top();
+        slided-top();
       }
     }
     // Active state:

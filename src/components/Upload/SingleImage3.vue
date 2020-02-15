@@ -90,7 +90,7 @@ export default {
 .upload-container {
   width: 100%;
   position: relative;
-  @include clearfix;
+  clearfix()
   .image-uploader {
     width: 35%;
     float: left;

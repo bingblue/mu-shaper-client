@@ -62,7 +62,7 @@ export default {
   @import "~@/styles/variables.styl";
 
   .app-wrapper {
-    @include clearfix;
+    clearfix()
     position: relative;
     height: 100%;
     width: 100%;

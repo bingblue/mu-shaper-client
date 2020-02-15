@@ -260,7 +260,7 @@ export default {
 
     .postInfo-container {
       position: relative;
-      @include clearfix;
+      clearfix()
       margin-bottom: 10px;
 
       .postInfo-container-item {

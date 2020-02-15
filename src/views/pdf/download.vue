@@ -88,7 +88,7 @@ clearfix {
 
 .node-article-content {
   margin: 20px 0 0;
-  @include clearfix;
+  clearfix()
   font-size: 16px;
   color: #333;
   letter-spacing: 0.5px;
